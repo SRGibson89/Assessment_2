@@ -1,0 +1,14 @@
+﻿<Window x:Class="Assessment_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Napier Holiday Village" Height="300" Width="400">
+    <Grid Background="#FFFDFAF5">
+        
+        <Label x:Name="lblTitle" Content="Welcome to The Napier Holiday Village &#xA;&#x9;Reservation System " HorizontalAlignment="Center" Margin="10,10,0,0" VerticalAlignment="Top" Width="372" Height="69" FontFamily="Arial" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF303030"/>
+        <Button x:Name="BtnGuest" Content="Guest" Margin="146,170,0,0" VerticalAlignment="Top" Height="30" Width="100" HorizontalAlignment="Left" Click="BtnGuest_Click"/>
+        <Button x:Name="BtnBooking" Content="Booking" Margin="146,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.533,0.364" Height="30" Width="100" HorizontalAlignment="Left" Click="BtnBooking_Click"/>
+        <Button x:Name="btnCustomer" Content="Customer" Margin="146,100,0,0" VerticalAlignment="Top" Height="30" Click="btnCustomer_Click" Width="100" HorizontalAlignment="Left"/>
+        <Button x:Name="BtnInvoice" Content="Invoice" Margin="146,205,0,0" VerticalAlignment="Top" Height="30" Width="100" HorizontalAlignment="Left" Click="BtnInvoice_Click"/>
+
+    </Grid>
+</Window>
